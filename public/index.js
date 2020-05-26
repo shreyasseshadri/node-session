@@ -1,6 +1,5 @@
 function postData(){
-    console.log("here")
-    fetch("http://localhost:3000",{
+    fetch("http://localhost:3000/login",{
     method:"POST",
     headers: {
       "X-sample": "hello"
